@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shafiqahspaces</title>
+</head>
+ 
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: maroon;
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  blockquote p {
+    border: 2px solid white;
+    background-color: indianred;
+    font-size: 180%;
+    text-align: center;
+    color: black; 
+    margin: 0; 
+  }
+
+  p {
+    font-size: 150%;
+    text-align: center;
+    text-justify: inter-word;
+    word-spacing: 30%;
+    background-color: indianred;
+    color: blanchedalmond;
+  }
+
+  @keyframes bounce {
+     0%, 20%, 50%, 80%, 100% {
+          transform: translateY(0);
+     }
+     40% {
+          transform: translateY(-20%);
+     }
+     60% {
+          transform: translateY(-10%);
+     }
+}
+
+body {
+      background-image: url('https://imgur.com/bDFEK3u.jpg');
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+
+img {
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+header {
+  position: relative;
+  margin-bottom: 20px;
+
+      }
+
+header, footer {
+  background-color: darksalmon;
+  color: beige;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin-left: -30px;
+  margin-right: -30px;
+      }
+
+
+</style>
+</head>
+
+<body>
+  <ul>
+    <li><a class="active" href="file:///c:/Users/User/OneDrive/IML470/home.html">Home</a></li>
+    <li><a href="file:///C:/Users/User/OneDrive/IML470/Nostalgic%20memories.html">Nostalgic memories</a></li>
+    <li><a href="file:///c:/Users/User/OneDrive/IML470/My%20study%20tips.html">Study tips</a></li>
+    <li><a href="file:///c:/Users/User/OneDrive/IML470/Favourite%20songs.html">Favorite songs</a></li>
+    <li><a href="file:///c:/Users/User/OneDrive/IML470/My%20bestfriends.html">Bestfriends</a></li>
+    <li><a href="file:///C:/Users/User/OneDrive/IML470/Resume.html">Resume</a></li>
+  </ul>
+</body>
+</html>
+  
+<header>
+<h1 style="color:black; text-align:center; font-size:250%; font-family:papyrusbold; animation: bounce 2s infinite;"><u><sup>WELCOME TO MY LYFE</sup></u><span style='font-size:40px;'>&#127804;</span></h1>
+</header>
+
+<center><body onload="startTime()">
+
+
+  <div id="txt"></div>
+</div> 
+
+  <script>
+  function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+    setTimeout(startTime, 1000);
+  }
+  
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i}; 
+    return i;
+  }
+  </script></center>
+
+<center><img src="https://i.imgur.com/zYXYJg7.jpg" border="5" width="300" height="400" usemap="#imagemap"></center> 
+
+<map name="imagemap">
+  <area shape="rect" coords="0,0,300,400" href="https://i.imgur.com/LxG607A.jpg" alt="Link to New Image">
+</map>
+
+</body>
+</html>
+
+
+<blockquote>
+  <p><a href="https://www.goodreads.com/author/quotes/2192.Aristotle#:~:text=Knowing%20yourself%20is%20the%20beginning%20of%20all%20wisdom.&text=It%20is%20the%20mark%20of,a%20thought%20without%20accepting%20it." style="color: black;">"Knowing yourself is the beginning of all wisdom."(Aristotle)</a></p>
+</blockquote>
+
+  <p>Assalamualaikum and welcome to my beautiful page chingu! My name is Nur Shafiqah binti Ahmad. I am 22 years old and I am delighted to have this opportunity to introduce myself. While words alone cannot encapsulate the entirety of my existence, I hope to provide you with a snapshot of who I am, my background, interests, and aspirations. My journey in life has been marked by a tapestry of experiences, and I am eager to share some of the threads that have woven together the fabric of my identity. Feel free to explore my life journey not as a daughter but as a student and you guys will know what i love to do</p> 
+  
+  <footer>
+    <center><a href="mailto:2023374039@student.uitm.edu.my">Send email here</a></center>
+    <br>
+    <center><a href="tel:+601126222810">Call me</a></center>
+    <br>
+    <center><a href="https://www.instagram.com/shafiqaaaahhhh/">Visit my Instagram</a></center>
+    <p style="font-size: 150%; background-color: darksalmon; margin-block-end: auto;">&copy 2023 home.html</p>
+  </footer>
+
+</style>
+</body>
+</html>
